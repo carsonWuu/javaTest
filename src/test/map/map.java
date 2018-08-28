@@ -6,8 +6,6 @@ public class map {
 	public static void main(String[] args){
 		Map<String,String> map = new TreeMap<String,String>();
 		
-		
-		
 		Map<String,String> map1 = new HashMap<String,String>();
 		
 		for(int i=0;i<1000000;i++){
@@ -31,6 +29,8 @@ public class map {
 		}
 		end1 = System.currentTimeMillis();
 		System.out.println(end1-start1);
+		
+		System.out.println(map.size());
 //		System.out.println(map);
 //		System.out.println(map1);
 	}
